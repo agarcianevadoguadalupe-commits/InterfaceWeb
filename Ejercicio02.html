@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <link rel="stylesheet" href="EstilosFormulario.css">
+    </html>
+
+    <form action="envio02.php" method="GET">
+        <h2>1DAW</h2>
+
+        <label for="asignatura">Asignatura:</label>
+        <input type="radio" name="asignatura" value="BaseDatos">Base de datos</input>
+        <input type="radio" name="asignatura" value="Programacion">Programacion</input>
+        <input type="radio" name="asignatura" value="LenguajeMarcas">Lenguaje de Marcas</input>
+        <input type="radio" name="asignatura" value="Sistemas">Sistemas</input>
+
+        <br/>
+        <br/>
+
+        <label for="profesores">Profesores:</label>
+        <input type="checkbox" name="profesores[]" value="Isabel">Isabel
+        <input type="checkbox" name="profesores[]" value="Alberto">Alberto
+        <input type="checkbox" name="profesores[]" value="Paco">Paco
+        <input type="checkbox" name="profesores[]" value="Tomas">Tomas
+        
+        <br/>
+        <br/>
+
+        <label for="horas">Horas</label>
+        <input name="horas" type="text"/>
+
+        <br/>
+        <br/>
+
+        <label for="info">Informacion</label>
+        <input name="info" type="text" size="30" style="height: 60px;">   
+
+        <br/>
+        <br/>
+
+        <input name="enviar" type="submit" size="30">
+    </form>
+
+</html>
