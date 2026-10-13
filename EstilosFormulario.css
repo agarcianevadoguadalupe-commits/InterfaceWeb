@@ -1,10 +1,32 @@
-form {
-    border: 2px solid;
-    margin-left: 25px;
-    padding-left: 25px;
+html {
+    background-color: #e8eef5;
 }
 
-input {
-    padding: 10px 10px 10px 10px;
-    margin-bottom: 10px;
+body {
+    width: 1536px;               /* medida de referencia (80% de una pantalla de 1920px) */
+    margin: 0 auto;              /* centrado horizontal */
+    background-color: #4e5762;
+}
+
+form {
+    width: 1075px;               /* medida de referencia (dentro del body de 1536px) */
+    margin: 0 auto;              /* centrado horizontal */
+    padding: 46px;               /* medida de referencia */
+    box-sizing: border-box;      /* el width incluye padding y borde */
+    border: 2px solid #2c5282;   /* borde de 2px */
+    background-color: #ffffff;
+}
+
+h2 {
+    text-align: center;
+}
+
+label {
+    display: inline-block;
+    width: 176px;                /* medida de referencia */
+}
+
+input[type="text"] {
+    width: 587px;                /* medida de referencia (content-box: el padding se suma aparte) */
+    padding: 15px;               /* medida de referencia */
 }
